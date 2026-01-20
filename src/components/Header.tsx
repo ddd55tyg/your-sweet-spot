@@ -7,11 +7,11 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const navLinks = [
-    { label: "الرئيسية", href: "#" },
-    { label: "الدورات", href: "#courses" },
-    { label: "من نحن", href: "#about" },
-    { label: "آراء العملاء", href: "#testimonials" },
-    { label: "تواصل معنا", href: "#contact" },
+    { label: "Home", href: "#" },
+    { label: "Courses", href: "#courses" },
+    { label: "About", href: "#about" },
+    { label: "Testimonials", href: "#testimonials" },
+    { label: "Contact", href: "#contact" },
   ];
 
   return (
@@ -41,8 +41,8 @@ const Header = () => {
 
           {/* Desktop CTA */}
           <div className="hidden lg:flex items-center gap-4">
-            <Button variant="ghost">تسجيل الدخول</Button>
-            <Button variant="hero">ابدأ الآن</Button>
+            <Button variant="ghost">Login</Button>
+            <Button variant="hero">Get Started</Button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -77,8 +77,8 @@ const Header = () => {
                 </a>
               ))}
               <div className="flex flex-col gap-2 pt-4 border-t border-border">
-                <Button variant="ghost" className="justify-start">تسجيل الدخول</Button>
-                <Button variant="hero">ابدأ الآن</Button>
+                <Button variant="ghost" className="justify-start">Login</Button>
+                <Button variant="hero">Get Started</Button>
               </div>
             </nav>
           </motion.div>

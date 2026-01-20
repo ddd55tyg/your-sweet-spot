@@ -64,12 +64,12 @@ const CourseCard = ({
 
         {/* Stats */}
         <div className="flex items-center gap-4 text-sm text-muted-foreground mb-4">
-          <span>{sales} مبيعات</span>
+          <span>{sales} Sales</span>
         </div>
 
         {/* Price */}
         <div className="flex items-center gap-3 mb-4">
-          <span className="text-2xl font-heading font-bold text-success">
+          <span className="text-2xl font-heading font-bold text-accent">
             ${price}
           </span>
           <span className="text-muted-foreground line-through text-sm">
@@ -85,12 +85,12 @@ const CourseCard = ({
           </div>
           <div className="flex items-center gap-1">
             <BookOpen className="w-4 h-4" />
-            <span>{lessons} درس</span>
+            <span>{lessons} Lessons</span>
           </div>
         </div>
 
         <Button variant="hero" className="w-full mt-4">
-          اعرف المزيد
+          Learn More
         </Button>
       </div>
     </motion.div>

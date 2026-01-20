@@ -4,18 +4,18 @@ import { BookOpen, TrendingUp, GraduationCap } from "lucide-react";
 const features = [
   {
     icon: BookOpen,
-    title: "مكتبة الكتب",
-    description: "التراكم التدريجي للمعلومات حول السلوك الذري والصغير يساعدك على فهم العالم بشكل أفضل.",
+    title: "Books Library",
+    description: "The gradual accumulation of information about atomic and small-scale behavior helps you understand the world better.",
   },
   {
     icon: TrendingUp,
-    title: "تحليل السوق",
-    description: "التراكم التدريجي للمعلومات حول السلوك الذري والصغير يساعدك على فهم السوق بشكل أفضل.",
+    title: "Market Analysis",
+    description: "The gradual accumulation of information about atomic and small-scale behavior helps you understand the market better.",
   },
   {
     icon: GraduationCap,
-    title: "+50 دورة تدريبية",
-    description: "التراكم التدريجي للمعلومات حول السلوك الذري والصغير يساعدك على التعلم بشكل أفضل.",
+    title: "50+ Online Courses",
+    description: "The gradual accumulation of information about atomic and small-scale behavior helps you learn better.",
   },
 ];
 
@@ -45,9 +45,9 @@ const FeaturesSection = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <span className="text-primary font-medium mb-4 block">ميزاتنا</span>
+          <span className="text-primary font-medium mb-4 block">Our Features</span>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-foreground">
-            إمكانية الوصول للتعليم عبر الإنترنت
+            Online Education Accessibility
           </h2>
         </motion.div>
 
