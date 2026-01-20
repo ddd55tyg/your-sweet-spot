@@ -7,38 +7,38 @@ import courseWeb from "@/assets/course-web.jpg";
 const courses = [
   {
     image: courseDesign,
-    category: "تصميم جرافيك",
+    category: "Graphic Design",
     rating: 4.7,
-    title: "تصميم UI & UX",
-    description: "أطلق العنان لإبداعك مع دورتنا في UI & UX! تعلم مبادئ التصميم الأساسية، وأتقن الأدوات الرائدة في الصناعة.",
+    title: "UI & UX Design",
+    description: "Unlock your creativity with our UI & UX course! Learn essential design principles and master industry-leading tools.",
     sales: 80,
     originalPrice: 11.99,
     price: 4.99,
-    duration: "22 ساعة 30 دقيقة",
+    duration: "22hr 30min",
     lessons: 64,
   },
   {
     image: courseDev,
-    category: "تطوير البرمجيات",
+    category: "Software Development",
     rating: 4.6,
-    title: "تصميم المشاريع",
-    description: "حول الأفكار إلى خطط قابلة للتنفيذ مع دورتنا في تصميم المشاريع. تعلم كيفية الهيكلة والتنظيم والتنفيذ.",
+    title: "Project Design",
+    description: "Transform ideas into actionable plans with our Project Design course. Learn to structure, organize, and execute projects effectively.",
     sales: 160,
     originalPrice: 15.99,
     price: 7.99,
-    duration: "30 ساعة 30 دقيقة",
+    duration: "30hr 30min",
     lessons: 121,
   },
   {
     image: courseWeb,
-    category: "تطوير الويب",
+    category: "Web Development",
     rating: 4.9,
     title: "HTML & CSS",
-    description: "ابنِ أساس تطوير الويب مع دورتنا في HTML & CSS! تعلم إنشاء مواقع ويب مذهلة وسريعة الاستجابة من الصفر.",
+    description: "Build the foundation of web development with our HTML & CSS course! Learn to create stunning, responsive websites from scratch.",
     sales: 288,
     originalPrice: 18.99,
     price: 8.99,
-    duration: "16 ساعة 40 دقيقة",
+    duration: "16hr 40min",
     lessons: 107,
   },
 ];
@@ -54,12 +54,12 @@ const CoursesSection = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <span className="text-primary font-medium mb-4 block">دوراتنا التدريبية</span>
+          <span className="text-primary font-medium mb-4 block">Our Courses</span>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-foreground mb-4">
-            تصفح دوراتنا الأكثر مبيعًا
+            Browse Our Best Selling Courses
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            اختر من بين مجموعة واسعة من الدورات المصممة لمساعدتك على تطوير مهاراتك وتحقيق أهدافك المهنية.
+            Choose from a wide range of courses designed to help you develop your skills and achieve your professional goals.
           </p>
         </motion.div>
 

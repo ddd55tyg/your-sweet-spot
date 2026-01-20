@@ -16,54 +16,29 @@ const HeroSection = () => {
       <div className="absolute inset-0 bg-navy/70" />
       
       <div className="section-container relative z-10 py-20 md:py-32">
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          className="max-w-3xl mx-auto text-center"
-        >
-          <motion.span 
-            initial={{ opacity: 0, scale: 0.9 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ delay: 0.2 }}
-            className="inline-block px-4 py-2 bg-sky/20 text-sky-foreground rounded-full text-sm font-medium mb-6"
-          >
-            انضم إلينا الآن
-          </motion.span>
+        <div className="max-w-3xl mx-auto text-center">
+          <span className="inline-block px-4 py-2 bg-accent/20 text-accent rounded-full text-sm font-medium mb-6">
+            Join Us Now
+          </span>
           
-          <motion.h1 
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.3, duration: 0.6 }}
-            className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-heading font-bold text-white mb-6 leading-tight"
-          >
-            أفضل فرص التعلم
-            <span className="block text-sky">عبر الإنترنت</span>
-          </motion.h1>
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-heading font-bold text-white mb-6 leading-tight">
+            Best Learning
+            <span className="block text-accent">Opportunities</span>
+          </h1>
           
-          <motion.p 
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.5, duration: 0.6 }}
-            className="text-lg md:text-xl text-white/80 mb-10 max-w-2xl mx-auto"
-          >
-            نحن نعرف كيف تتصرف الأشياء الكبيرة، لكن الأشياء على نطاق صغير تتصرف بشكل مختلف تمامًا. اكتشف عالم التعلم معنا.
-          </motion.p>
+          <p className="text-lg md:text-xl text-white/80 mb-10 max-w-2xl mx-auto">
+            We know how large objects will act, but things on a small scale just don't act that way. Discover the world of learning with us.
+          </p>
           
-          <motion.div 
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.7, duration: 0.6 }}
-            className="flex flex-col sm:flex-row gap-4 justify-center"
-          >
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button variant="hero" size="xl">
-              احصل على عرض الآن
+              Get Quote Now
             </Button>
             <Button variant="heroOutline" size="xl">
-              اعرف المزيد
+              Learn More
             </Button>
-          </motion.div>
-        </motion.div>
+          </div>
+        </div>
       </div>
 
       {/* Decorative elements */}
@@ -77,7 +52,7 @@ const HeroSection = () => {
           repeat: Infinity,
           ease: "easeInOut"
         }}
-        className="absolute bottom-20 right-10 w-20 h-20 bg-sky/20 rounded-full blur-xl hidden md:block"
+        className="absolute bottom-20 right-10 w-20 h-20 bg-accent/20 rounded-full blur-xl hidden md:block"
       />
       <motion.div 
         animate={{ 
@@ -89,7 +64,7 @@ const HeroSection = () => {
           repeat: Infinity,
           ease: "easeInOut"
         }}
-        className="absolute top-40 left-10 w-32 h-32 bg-success/20 rounded-full blur-xl hidden md:block"
+        className="absolute top-40 left-10 w-32 h-32 bg-primary/20 rounded-full blur-xl hidden md:block"
       />
     </section>
   );
